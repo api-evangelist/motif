@@ -1,7 +1,15 @@
 aid: motif
 name: Motif
-description: Motif is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Motif is an AEC (architecture, engineering, and construction) software company building an
+  intelligent, browser-based workspace for building design. Founded in 2023 by former Autodesk
+  leaders Amar Hanspal and Brian Mathews, Motif unifies sheet review, live 3D streaming, AI-assisted
+  visual exploration, and real-time collaboration in a single cloud platform that bridges 2D and 3D
+  workflows as a step toward making Building Information Modeling (BIM) a practical reality. The
+  company has raised $46M led by Redpoint Ventures (seed) and Alphabet's CapitalG (Series A), and was
+  named to Forbes' 2025 Next Billion-Dollar Startups list. Motif is a collaboration SaaS product for
+  design and construction teams; it publishes product learning docs and a help center but does not yet
+  expose a public developer API — a plugin/API surface is part of its stated long-term strategy.
 url: https://raw.githubusercontent.com/api-evangelist/motif/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67d5cee480fc1961821510ca/69cab5c225efb4c0ded689d8_og.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- AEC
+- Architecture
+- Engineering
+- Construction
+- BIM
+- Design Collaboration
+- 3D
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,26 @@ maintainers:
 common:
 - type: Website
   url: https://motif.io/
+- type: Documentation
+  url: https://docs.motif.io/learningmotif
+- type: Support
+  url: https://help.motif.io/
+- type: Blog
+  url: https://www.motif.io/blog
+- type: Pricing
+  url: https://www.motif.io/pricing
+- type: SignUp
+  url: https://app.motif.io/signup
+- type: Login
+  url: https://app.motif.io/signin
+- type: TermsOfService
+  url: https://cdn.prod.website-files.com/67d5cee480fc1961821510ca/67e24427b79042146bceb9e2_terms-of-service.pdf
+- type: PrivacyPolicy
+  url: https://cdn.prod.website-files.com/67d5cee480fc1961821510ca/69deb6b90a78a1e1b1074ac2_2026-09-April%20Motif%20Privacy%20Notice.pdf
+- type: DomainSecurity
+  url: security/motif-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
