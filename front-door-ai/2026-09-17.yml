@@ -1,0 +1,27 @@
+# Front Door AI Index — motif — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: motif
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: motif.io
+  final_host: motif.io
+  ownership: own
+  owner: motif
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 25
+  host_score: 25
+  density: 17.33
+  words: 1443
+  tiers:
+    agentic: 5
+    core: 20
+    model: 0
+  ambiguous: 15
+  top_terms:
+    AI: 20
+    agent: 15
+    AI agent: 5
